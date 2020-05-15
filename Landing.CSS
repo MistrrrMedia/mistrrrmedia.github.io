@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'interregular';
+    src: url('inter (font)/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
+         url('inter (font)/inter-variablefont_slntwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+	background-color: rgb(255,255,255);
+	height: 100%;
+	margin: 0;
+	letter-spacing: -1px;
+	font-family: Inter;
+}
+
+.bg {
+	background-image: url(https://cdn.dribbble.com/users/1237300/screenshots/6478927/__-1_1_____.gif);
+	-webkit-filter: invert(1) brightness(2) blur(50px);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.title {
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.desc {
+	margin-top: -30px;
+	margin-bottom: 20px;
+	color: black;
+	font-weight: 550;
+	text-align: center;
+}
+
+/*buttons*/
+
+.disc {
+	margin-top: 10px;
+	border-radius: 32pt;
+	background-color: white ;
+    color: black;
+    padding: 10px 17px;
+    text-align: center;
+	text-decoration: none;
+	transition-duration: 0.07s;
+    cursor: pointer;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.port {
+	margin-top: 10px;
+	border-radius: 32pt;
+	background-color: white ;
+    color: black;
+    padding: 10px 17px;
+    text-align: center;
+	text-decoration: none;
+	transition-duration: 0.07s;
+    cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.resume {
+	margin-top: 10px;
+	border-radius: 32pt;
+	background-color: white ;
+    color: black;
+    padding: 10px 17px;
+    text-align: center;
+	text-decoration: none;
+	transition-duration: 0.07s;
+    cursor: pointer;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+/*hover elements*/
+
+.disc:hover {
+	margin-top: 10px;
+	border-radius: 5pt;
+	background-color: rgba(0,0,0, 1.00);
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+	display: inline-block;
+    vertical-align: middle;
+	
+}.port:hover {
+	margin-top: 10px;
+	border-radius: 5pt;
+	background-color: rgba(0,0,0, 1.00);
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.resume:hover {
+	margin-top: 10px;
+	border-radius: 5pt;
+	background-color: rgba(0,0,0, 1.00);
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+	display: inline-block;
+    vertical-align: middle;
+}
