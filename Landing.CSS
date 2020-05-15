@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body, html {
 	background-color: rgb(255,255,255);
 	height: 100%;
 	margin: 0;
 	letter-spacing: -1px;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 }
 
 .bg {
