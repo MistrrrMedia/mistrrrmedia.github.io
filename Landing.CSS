@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-@font-face {
-    font-family: 'interregular';
-    src: url('inter (font)/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
-         url('inter (font)/inter-variablefont_slntwght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url(https://fonts.googleapis.com/css?family=Inter&display=swap);
 
 body, html {
 	background-color: rgb(255,255,255);
