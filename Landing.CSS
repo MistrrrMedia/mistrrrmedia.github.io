@@ -9,7 +9,6 @@ body, html {
 	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover; 
-	filter: blur(20px) brightness(200%);
 	margin: 0;
 	letter-spacing: -1px;
 	font-family: 'Inter', sans-serif;
