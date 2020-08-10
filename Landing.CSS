@@ -10,7 +10,7 @@ body, html {
 	font-family: 'Inter', sans-serif;
 }
 
-.fullscreen-bg {
+.pain {
     position: fixed;
     top: 0;
     right: 0;
@@ -19,9 +19,9 @@ body, html {
     overflow: hidden;
 }
 
-.fullscreen-bg__video {
+.painful {
     position: absolute;
-    -webkit-filter: invert(1) brightness(2) blur(50px);
+    -webkit-filter: invert(1) brightness(2) blur(20px);
     top: 0;
     left: 0;
     width: 100%;
@@ -29,14 +29,14 @@ body, html {
 }
 
 @media (min-aspect-ratio: 16/9) {
-    .fullscreen-bg__video {
+    .painful {
         height: 300%;
         top: -100%;
     }
 }
 
 @media (max-aspect-ratio: 16/9) {
-    .fullscreen-bg__video {
+    .painful {
         width: 300%;
         left: -100%;
     }
