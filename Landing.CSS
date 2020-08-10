@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body, html {
-	background-color: rgb(255,255,255);
+	background:url("Untitled-1.png")
 	height: 100%;
 	margin: 0;
 	letter-spacing: -1px;
 	font-family: 'Inter', sans-serif;
+	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
 }
 
 .pain {
