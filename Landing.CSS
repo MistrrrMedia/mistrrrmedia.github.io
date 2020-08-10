@@ -9,7 +9,8 @@ body, html {
 	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover; 
-	filter: invert(1) brightness(2) blur(20px);
+	filter: brightness(200%); 
+	filter: blur(20px);
 	margin: 0;
 	letter-spacing: -1px;
 	font-family: 'Inter', sans-serif;
