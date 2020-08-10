@@ -9,13 +9,14 @@ body, html {
 	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover; 
+	filter: blur(20px) brightness(200%);
 	margin: 0;
 	letter-spacing: -1px;
 	font-family: 'Inter', sans-serif;
 }
 
 .title {
-	color: white;
+	color: black;
 	font-weight: bold;
 	position: absolute;
 	top: 50%;
@@ -27,7 +28,7 @@ body, html {
 .desc {
 	margin-top: -30px;
 	margin-bottom: 20px;
-	color: white;
+	color: black;
 	font-weight: 550;
 	text-align: center;
 }
