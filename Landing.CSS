@@ -42,7 +42,7 @@ body, html {
     padding: 10px 17px;
     text-align: center;
 	text-decoration: none;
-	transition-duration: 0.07s;
+	transition-duration: 200ms;
     cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
@@ -56,7 +56,7 @@ body, html {
     padding: 10px 17px;
     text-align: center;
 	text-decoration: none;
-	transition-duration: 0.07s;
+	transition-duration: 200ms;
     cursor: pointer;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -72,7 +72,7 @@ body, html {
     padding: 10px 17px;
     text-align: center;
 	text-decoration: none;
-	transition-duration: 0.07s;
+	transition-duration: 200ms;
     cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
