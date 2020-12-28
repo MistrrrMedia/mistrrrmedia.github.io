@@ -118,3 +118,9 @@ body, html {
    	vertical-align: middle;
 	letter-spacing: -0.25px;
 }
+
+.logotext {
+	.slogan{
+    	float:bottom;
+   	margin-bottom: 20px;
+}	
