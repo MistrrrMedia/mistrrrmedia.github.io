@@ -10,7 +10,6 @@ body, html {
 	background-color: rgb(20,20,25);
 	height: 100%;
 	margin: 0;
-	letter-spacing: -0.5px;
 	font-family: "Roboto Mono", monospace;
 }
 
@@ -20,6 +19,7 @@ body, html {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	letter-spacing: -1px;
 	text-align: center;
 }
 
@@ -29,6 +29,7 @@ body, html {
 	color: white;
 	text-align: center;
 	font-weight: bold;
+	letter-spacing: -0.25px;
 
 }
 
@@ -38,44 +39,47 @@ body, html {
 	margin-top: 10px;
 	border-radius: 32pt;
 	background-color: white ;
-    color: black;
-    padding: 10px 17px;
-    text-align: center;
+  	color: black;
+    	padding: 10px 17px;
+    	text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-    cursor: pointer;
+    	cursor: pointer;
 	display: inline-block;
-    vertical-align: middle;
+    	vertical-align: middle;
+	letter-spacing: -0.25px;
 }
 
 .port {
 	margin-top: 10px;
 	border-radius: 32pt;
 	background-color: white ;
-    color: black;
-    padding: 10px 17px;
-    text-align: center;
+    	color: black;
+    	padding: 10px 17px;
+    	text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-    cursor: pointer;
+    	cursor: pointer;
 	margin-left: 10px;
 	margin-right: 10px;
 	display: inline-block;
-    vertical-align: middle;
+    	vertical-align: middle;
+	letter-spacing: -0.25px;
 }
 
 .resume {
 	margin-top: 10px;
 	border-radius: 32pt;
 	background-color: white ;
-    color: black;
-    padding: 10px 17px;
-    text-align: center;
+    	color: black;
+    	padding: 10px 17px;
+    	text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-    cursor: pointer;
+    	cursor: pointer;
 	display: inline-block;
-    vertical-align: middle;
+    	vertical-align: middle;
+	letter-spacing: -0.25px;
 }
 
 /*hover elements*/
@@ -83,31 +87,34 @@ body, html {
 .disc:hover {
 	margin-top: 10px;
 	border-radius: 5pt;
-	background-color: darkgray;
-    color: white;
-    padding: 10px 17px;
-    text-align: center;
+	background-color: rgb(50,50,60);
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
 	display: inline-block;
-    vertical-align: middle;
+    	vertical-align: middle;
+	letter-spacing: -0.25px;
 	
 }.port:hover {
 	margin-top: 10px;
 	border-radius: 5pt;
-	background-color: darkgray;
-    color: white;
-    padding: 10px 17px;
-    text-align: center;
+	background-color: rgb(50,50,60);
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
 	display: inline-block;
-    vertical-align: middle;
+    	vertical-align: middle;
+	letter-spacing: -0.25px;
 }
 
 .resume:hover {
 	margin-top: 10px;
 	border-radius: 5pt;
-	background-color: darkgray;
-    color: white;
-    padding: 10px 17px;
-    text-align: center;
+	background-color: rgb(50,50,60);
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
 	display: inline-block;
-    vertical-align: middle;
+   	vertical-align: middle;
+	letter-spacing: -0.25px;
 }
