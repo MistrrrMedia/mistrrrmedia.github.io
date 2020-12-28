@@ -119,11 +119,16 @@ body, html {
 	letter-spacing: -0.25px;
 }
 
-.logotext {
+.footer {
      	position:fixed;
   	bottom: 20px;
-  	margin: auto;
   	width: 100%;
   	height: 50px;
-	align: center;
  }	
+
+.logotext {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
