@@ -38,8 +38,8 @@ body, html {
 .disc {
 	margin-top: 10px;
 	border-radius: 32pt;
-	background-color: white ;
-  	color: black;
+	background-color: rgb(50,50,60);
+  	color: white;
     	padding: 10px 17px;
     	text-align: center;
 	text-decoration: none;
@@ -53,8 +53,8 @@ body, html {
 .port {
 	margin-top: 10px;
 	border-radius: 32pt;
-	background-color: white ;
-    	color: black;
+	background-color: rgb(50,50,60);
+    	color: white;
     	padding: 10px 17px;
     	text-align: center;
 	text-decoration: none;
@@ -70,8 +70,8 @@ body, html {
 .resume {
 	margin-top: 10px;
 	border-radius: 32pt;
-	background-color: white ;
-    	color: black;
+	background-color: rgb(50,50,60);
+    	color: white;
     	padding: 10px 17px;
     	text-align: center;
 	text-decoration: none;
@@ -87,7 +87,7 @@ body, html {
 .disc:hover {
 	margin-top: 10px;
 	border-radius: 5pt;
-	background-color: rgb(50,50,60);
+	background-color: rgb( 10, 10, 12 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -98,7 +98,7 @@ body, html {
 }.port:hover {
 	margin-top: 10px;
 	border-radius: 5pt;
-	background-color: rgb(50,50,60);
+	background-color: rgb( 10, 10, 12 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -110,7 +110,7 @@ body, html {
 .resume:hover {
 	margin-top: 10px;
 	border-radius: 5pt;
-	background-color: rgb(50,50,60);
+	background-color: rgb( 10, 10, 12 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
