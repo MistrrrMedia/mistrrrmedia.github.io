@@ -76,6 +76,50 @@ body, html {
     	vertical-align: middle;
 }
 
+.spotify {
+	margin-top: 10px;
+	border-radius: 32pt;
+	background-color: rgb(40,40,50);
+  	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
+	text-decoration: none;
+	transition-duration: 200ms;
+    	cursor: pointer;
+	display: inline-block;
+    	vertical-align: middle;
+}
+
+.apple_music {
+	margin-top: 10px;
+	border-radius: 32pt;
+	background-color: rgb(40,40,50);
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
+	text-decoration: none;
+	transition-duration: 200ms;
+    	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+    	vertical-align: middle;
+}
+
+.soundcloud {
+	margin-top: 10px;
+	border-radius: 32pt;
+	background-color: rgb(40,40,50);
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
+	text-decoration: none;
+	transition-duration: 200ms;
+    	cursor: pointer;
+	display: inline-block;
+    	vertical-align: middle;
+}
+
 /*hover elements*/
 
 .disc:hover {
@@ -102,6 +146,40 @@ body, html {
 }
 
 .resume:hover {
+	margin-top: 10px;
+	border-radius: 5pt;
+	background-color: rgb( 80, 80, 100 );
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
+	display: inline-block;
+   	vertical-align: middle;
+}
+
+.spotify:hover {
+	margin-top: 10px;
+	border-radius: 5pt;
+	background-color: rgb( 80, 80, 100 );
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
+	display: inline-block;
+    	vertical-align: middle;
+	
+}
+
+.apple_music:hover {
+	margin-top: 10px;
+	border-radius: 5pt;
+	background-color: rgb( 80, 80, 100 );
+    	color: white;
+    	padding: 10px 17px;
+    	text-align: center;
+	display: inline-block;
+    	vertical-align: middle;
+}
+
+.soundcloud:hover {
 	margin-top: 10px;
 	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
