@@ -40,7 +40,7 @@ body, html {
 .disc {
 	margin-top: 8px;
 	border-radius: 32pt;
-	background-color: rgb(40,40,50);
+	background-color: rgb( 40, 40, 50 );
   	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -55,7 +55,7 @@ body, html {
 .port {
 	margin-top: 8px;
 	border-radius: 32pt;
-	background-color: rgb(40,40,50);
+	background-color: rgb( 40, 40, 50 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -72,7 +72,7 @@ body, html {
 .resume {
 	margin-top: 8px;
 	border-radius: 32pt;
-	background-color: rgb(40,40,50);
+	background-color: rgb( 40, 40, 50 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -87,7 +87,7 @@ body, html {
 .spotify {
 	margin-top: 8px;
 	border-radius: 32pt;
-	background-color: rgb(40,40,50);
+	background-color: rgb( 40, 40, 50 );
   	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -102,7 +102,7 @@ body, html {
 .apple_music {
 	margin-top: 8px;
 	border-radius: 32pt;
-	background-color: rgb(40,40,50);
+	background-color: rgb( 40, 40, 50 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -119,7 +119,7 @@ body, html {
 .soundcloud {
 	margin-top: 8px;
 	border-radius: 32pt;
-	background-color: rgb(40,40,50);
+	background-color: rgb( 40, 40, 50 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -172,7 +172,7 @@ body, html {
 .spotify:hover {
 	margin-top: 8px;
 	border-radius: 5pt;
-	background-color: rgb( 67, 200, 87 );
+	background-color: rgb( 103, 236, 103 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
