@@ -13,14 +13,14 @@
 		
 		<!-- Black Lives Still Matter. -->
 		
-		<h1 style = "font-size: 50pt; font-weight: medium;" >Hello. I'm Mistrrr</h1>
+		<h1 style = "font-size: 50pt; font-weight: medium;" >hello! i'm mistrrr.</h1>
 		
 		<p class = "desc" style = "font-size: 16pt; font-weight: bold;" >I am most commonly referred to as Nick. I am a student, musician, and graphic designer.</p>
 		
 		<span style = "font-weight: bold;">
 			<!-- <a href="https://soundcloud.com/mistrrr/tracks" class="disc" style="font-size: 14pt">Discography</a> -->
 			
-			<a onclick="revealDisc()" class="disc">Discography</a>
+			<a onclick="revealDisc()" class="disc" style="font-size: 14pt">Discography</a>
 			<a href="https://www.behance.net/gallery/90414453/Mistrrr-Media-Artwork" class="port" style="font-size: 14pt">Portfolio</a>
 			<a href="https://mistrrrmedia.github.io/Resume.pdf" class="resume" style="font-size: 14pt">Resumé</a>
 		</span>
@@ -34,8 +34,10 @@
 		</div>
 		
 		<script>
+			var x = document.getElementById("services");
+			x.style.display === "none";
+			
 			function revealDisc(){
-				var x = document.getElementById("services");
 				if (x.style.display === "none") {
 					x.style.display = "block";
 				}
@@ -43,7 +45,7 @@
 				else {
 					x.style.display = "none";
 				}
-			}
+			};
 		</script>
 		
 	</div>
