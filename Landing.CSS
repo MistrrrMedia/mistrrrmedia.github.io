@@ -32,6 +32,11 @@ body, html {
 	margin-top: -30px;
 	margin-bottom: 20px;
 	text-align: center;
+	font-size = 14;
+}
+
+.main_buttons {
+	font-size = 14;
 }
 
 /*buttons*/
