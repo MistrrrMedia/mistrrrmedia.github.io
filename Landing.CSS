@@ -172,7 +172,7 @@ body, html {
 .spotify:hover {
 	margin-top: 8px;
 	border-radius: 5pt;
-	background-color: rgb( 132, 228, 164 );
+	background-color: rgb( 120, 228, 144 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -196,7 +196,7 @@ body, html {
 .soundcloud:hover {
 	margin-top: 8px;
 	border-radius: 5pt;
-	background-color: rgb( 250, 160, 51 );
+	background-color: rgb( 245, 157, 51 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
