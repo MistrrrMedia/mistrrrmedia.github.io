@@ -38,7 +38,7 @@ body, html {
 /*buttons*/
 
 .disc {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 32pt;
 	background-color: rgb(40,40,50);
   	color: white;
@@ -53,7 +53,7 @@ body, html {
 }
 
 .port {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 32pt;
 	background-color: rgb(40,40,50);
     	color: white;
@@ -62,15 +62,15 @@ body, html {
 	text-decoration: none;
 	transition-duration: 200ms;
     	cursor: pointer;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	display: inline-block;
     	vertical-align: middle;
 	font-size: 14pt;
 }
 
 .resume {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 32pt;
 	background-color: rgb(40,40,50);
     	color: white;
@@ -85,7 +85,7 @@ body, html {
 }
 
 .spotify {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 32pt;
 	background-color: rgb(40,40,50);
   	color: white;
@@ -100,7 +100,7 @@ body, html {
 }
 
 .apple_music {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 32pt;
 	background-color: rgb(40,40,50);
     	color: white;
@@ -109,15 +109,15 @@ body, html {
 	text-decoration: none;
 	transition-duration: 200ms;
     	cursor: pointer;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	display: inline-block;
     	vertical-align: middle;
 	font-size: 14pt;
 }
 
 .soundcloud {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 32pt;
 	background-color: rgb(40,40,50);
     	color: white;
@@ -134,7 +134,7 @@ body, html {
 /*hover elements*/
 
 .disc:hover {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
     	color: white;
@@ -146,7 +146,7 @@ body, html {
 }
 
 .port:hover {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
     	color: white;
@@ -158,7 +158,7 @@ body, html {
 }
 
 .resume:hover {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
     	color: white;
@@ -170,9 +170,9 @@ body, html {
 }
 
 .spotify:hover {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 5pt;
-	background-color: rgb( 80, 80, 100 );
+	background-color: rgb( 132, 228, 164 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -182,9 +182,9 @@ body, html {
 }
 
 .apple_music:hover {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 5pt;
-	background-color: rgb( 80, 80, 100 );
+	background-color: rgb( 245, 87, 98 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
@@ -194,9 +194,9 @@ body, html {
 }
 
 .soundcloud:hover {
-	margin-top: 10px;
+	margin-top: 8px;
 	border-radius: 5pt;
-	background-color: rgb( 80, 80, 100 );
+	background-color: rgb( 250, 160, 51 );
     	color: white;
     	padding: 10px 17px;
     	text-align: center;
