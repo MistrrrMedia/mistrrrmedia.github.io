@@ -20,14 +20,18 @@ body, html {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+	font-weight: medium;
+}
+
+.hello {
+	font-weight: medium;
+	font-size: 45pt;
 }
 
 .desc {
 	margin-top: -30px;
 	margin-bottom: 20px;
-	color: white;
 	text-align: center;
-	font-weight: medium;
 }
 
 /*buttons*/
