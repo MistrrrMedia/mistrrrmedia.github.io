@@ -41,14 +41,12 @@ ul.listed_items {
 	border-radius: 15px;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
 
-	/*
 	-webkit-animation: fadeIn ease 1s;
 	 -khtml-animation: fadeIn ease 1s;
 	   -moz-animation: fadeIn ease 1s;
 	    -ms-animation: fadeIn ease 1s;
 	     -o-animation: fadeIn ease 1s;
 	        animation: fadeIn ease 1s;
-	*/
 }
 
 .hello {
@@ -266,7 +264,6 @@ ul.listed_items {
 	font-size: 14pt;
 }
 
-/*
 @keyframes fadeIn {
     from {
         transform: translateY(-30px);
@@ -275,4 +272,3 @@ ul.listed_items {
         transform: translateY(0px);
     }
 }
-*/
