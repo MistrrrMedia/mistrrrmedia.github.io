@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 
 /* CSS Document */
 
@@ -12,7 +13,7 @@ body, html {
 	background-color: rgb( 40, 40, 50 );
 	height: 100%;
 	margin: 0;
-	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "Inter Medium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 ul.listed_items {
