@@ -3,50 +3,69 @@
 	
 <head>
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-	<link href="Landing.CSS" rel="stylesheet" type="text/css">
+	<link href="style.CSS" rel="stylesheet" type="text/css">
 	
 	<title>Mistrrr Media</title>
 </head>
 	
 <body>
-	<div class="title">
-		<h1 class="hello">hi! i'm nicholas.</h1>
-		
-		<p class="desc">i am a sound and graphic designer. i run mistrrrmedia and am a student at the university of kansas. </p>
-		
-		<span class="main_buttons">
-			<a onclick="revealDisc()" class="disc">Discography</a>
-			<a href="https://www.behance.net/gallery/90414453/Mistrrr-Media-Artwork" class="port">Portfolio</a>
-			<a href="https://mistrrrmedia.github.io/Resume.pdf" class="resume">Resumé</a>
-		</span>
-		
-		<div id="services">
-			<span>
-				<a href="https://open.spotify.com/artist/7cOcfcAsk4eE5QrgJKGLE8?si=24AYjQ9BSje5Tv1_wD9Q1A" class="spotify">Spotify</a>
-				<a href="https://music.apple.com/us/artist/mistrrr/1365281603" class="apple_music">Apple Music</a>
-				<a href="https://soundcloud.com/mistrrr" class="soundcloud">Soundcloud</a>
-			</span>
+	<div class="box">
+		<div class="main_text">
+			<h1 class="hello">hi! i'm nicholas.</h1>
+	
+			<p class="desc">sound & graphic designer.</p>
+			<p class="desc">computer science major @ university of kansas.</p>
+		</div>
+	
+		<div class="main_buttons">
+			<ul class="listed_items">
+				<li>
+					<a onclick="revealDisc()" class="discography">Discography</a>
+				</li>
+				<span id="links">
+					<li>
+						<a href="https://www.behance.net/gallery/90414453/Mistrrr-Media-Artwork" class="portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="https://mistrrrmedia.github.io/Resume.pdf" class="resume">Resumé</a>
+					</li>
+					<li>
+						<a href="mailto:nguyennicholas27@gmail.com" class="contact">Contact</a>
+					</li>
+				</span>
+			</ul>
+
+			<ul class="listed_items" id="services">
+				<li>
+					<a href="https://open.spotify.com/artist/7cOcfcAsk4eE5QrgJKGLE8?si=24AYjQ9BSje5Tv1_wD9Q1A" class="spotify">Spotify</a>
+				</li>
+				<li>
+					<a href="https://music.apple.com/us/artist/mistrrr/1365281603" class="apple_music">Apple Music</a>
+				</li>
+				<li>
+					<a href="https://soundcloud.com/mistrrr" class="soundcloud">Soundcloud</a>
+				</li>
+			</ul>		
 		</div>
 		
 		<script>
 			var x = document.getElementById("services");
+			var y = document.getElementById("links");
  			x.style.display = "none";
 			
 			function revealDisc(){
 				if (x.style.display === "none") {
 					x.style.display = "block";
+					y.style.display = "none";
 				}
 				
 				else {
 					x.style.display = "none";
+					y.style.display = "block";
 				}
 			};
 		</script>
 	</div>
-	
-	<div class = "footer">
- 		<img class = "logotext" src = "mistrrrmedia.png" style = "width: 200px; height: 50px;" />
- 	</div>
 </body>	
 	
 </html>
