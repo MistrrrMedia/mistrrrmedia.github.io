@@ -79,7 +79,7 @@ ul.listed_items {
     text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-	cursor: default;
+	cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
 	font-size: 14pt;
@@ -95,7 +95,7 @@ ul.listed_items {
     text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-	cursor: default;
+	cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
 	font-size: 14pt;
@@ -111,7 +111,7 @@ ul.listed_items {
     text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-	cursor: default;
+	cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
 	font-size: 14pt;
@@ -127,7 +127,7 @@ ul.listed_items {
     text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-	cursor: default;
+	cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
 	font-size: 14pt;
@@ -143,7 +143,7 @@ ul.listed_items {
     text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-	cursor: default;
+	cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
 	font-size: 14pt;
@@ -159,7 +159,7 @@ ul.listed_items {
     text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-	cursor: default;
+	cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
 	font-size: 14pt;
@@ -175,7 +175,7 @@ ul.listed_items {
     text-align: center;
 	text-decoration: none;
 	transition-duration: 200ms;
-	cursor: default;
+	cursor: pointer;
 	display: inline-block;
     vertical-align: middle;
 	font-size: 14pt;
