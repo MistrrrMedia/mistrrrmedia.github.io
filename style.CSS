@@ -16,7 +16,7 @@ body, html {
 	background-color: rgb( 40, 40, 50 );
 	height: 100%;
 	margin: 0;
-	font-family: "Inter Medium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "Inter", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 ul.listed_items {
