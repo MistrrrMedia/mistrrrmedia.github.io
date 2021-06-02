@@ -12,7 +12,7 @@ body, html {
 	background-color: rgb( 40, 40, 50 );
 	height: 100%;
 	margin: 0;
-	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "Helvetica Neue Medium", "Helvetica", "Acumin Pro", sans-serif; 
 }
 
 ul.listed_items {
@@ -70,7 +70,7 @@ ul.listed_items {
 
 .discography {
 	width: 120px;
-	border-radius: 32pt;
+	border-radius: 5pt;
 	background-color: rgb( 40, 40, 50 );
   	color: white;
     padding: 10px 17px;
@@ -86,7 +86,7 @@ ul.listed_items {
 .portfolio {
 	width: 120px;
 	margin-top: 8px;
-	border-radius: 32pt;
+	border-radius: 5pt;
 	background-color: rgb( 40, 40, 50 );
   	color: white;
     padding: 10px 17px;
@@ -102,7 +102,7 @@ ul.listed_items {
 .resume {
 	width: 120px;
 	margin-top: 8px;
-	border-radius: 32pt;
+	border-radius: 5pt;
 	background-color: rgb( 40, 40, 50 );
   	color: white;
     padding: 10px 17px;
@@ -118,7 +118,7 @@ ul.listed_items {
 .contact {
 	width: 120px;
 	margin-top: 8px;
-	border-radius: 32pt;
+	border-radius: 5pt;
 	background-color: rgb( 40, 40, 50 );
   	color: white;
     padding: 10px 17px;
@@ -134,8 +134,8 @@ ul.listed_items {
 .spotify {
 	width: 120px;
 	margin-top: 8px;
-	border-radius: 32pt;
-	background-color: rgb( 40, 40, 50 );
+	border-radius: 5pt;
+	background-color: rgb( 93, 170, 93 );
   	color: white;
     padding: 10px 17px;
     text-align: center;
@@ -150,8 +150,8 @@ ul.listed_items {
 .apple_music {
 	width: 120px;
 	margin-top: 8px;
-	border-radius: 32pt;
-	background-color: rgb( 40, 40, 50 );
+	border-radius: 5pt;
+	background-color: rgb( 180, 77, 88 );
   	color: white;
     padding: 10px 17px;
     text-align: center;
@@ -166,8 +166,8 @@ ul.listed_items {
 .soundcloud {
 	width: 120px;
 	margin-top: 8px;
-	border-radius: 32pt;
-	background-color: rgb( 40, 40, 50 );
+	border-radius: 5pt;
+	background-color: rgb( 190, 130, 20 );
   	color: white;
     padding: 10px 17px;
     text-align: center;
@@ -182,7 +182,6 @@ ul.listed_items {
 /*hover elements*/
 
 .discography:hover {
-	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
     color: white;
     padding: 10px 17px;
@@ -194,7 +193,6 @@ ul.listed_items {
 
 .portfolio:hover {
 	margin-top: 8px;
-	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
     color: white;
     padding: 10px 17px;
@@ -206,7 +204,6 @@ ul.listed_items {
 
 .resume:hover {
 	margin-top: 8px;
-	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
     color: white;
     padding: 10px 17px;
@@ -218,7 +215,6 @@ ul.listed_items {
 
 .contact:hover {
 	margin-top: 8px;
-	border-radius: 5pt;
 	background-color: rgb( 80, 80, 100 );
     color: white;
     padding: 10px 17px;
@@ -230,7 +226,6 @@ ul.listed_items {
 
 .spotify:hover {
 	margin-top: 8px;
-	border-radius: 5pt;
 	background-color: rgb( 103, 236, 103 );
     color: white;
     padding: 10px 17px;
@@ -242,7 +237,6 @@ ul.listed_items {
 
 .apple_music:hover {
 	margin-top: 8px;
-	border-radius: 5pt;
 	background-color: rgb( 245, 87, 98 );
     color: white;
     padding: 10px 17px;
@@ -254,7 +248,6 @@ ul.listed_items {
 
 .soundcloud:hover {
 	margin-top: 8px;
-	border-radius: 5pt;
 	background-color: rgb( 245, 167, 51 );
     color: white;
     padding: 10px 17px;
