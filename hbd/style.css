@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body, html {
+	background-repeat: no-repeat;
+  	background-attachment: fixed; 
+  	background-size: cover;
+  	justify-content: center;
+  	display: flex;
+	background-color: rgb( 40, 40, 40 );
+	height: 100%;
+	margin: 0;
+	font-family: "Roboto Mono", "Roboto Mono Thin", mono-type; 
+}
+
+.invisibox {
+	margin: auto;
+	display: flex;
+	padding: 50px 50px;
+	box-sizing: border-box;
+	max-width: 1000px;
+	width: 100%;
+	align-items: center;
+}
+
+.polaroid {
+	padding-right: 100px;
+	width: 90%;
+	transform: rotate(-10deg);
+	opacity: 0%;
+
+	-webkit-animation: 0.75s ease 0s normal forwards 1 fade_rotate_in;
+	 -khtml-animation: 0.75s ease 0s normal forwards 1 fade_rotate_in;
+	   -moz-animation: 0.75s ease 0s normal forwards 1 fade_rotate_in;
+	    -ms-animation: 0.75s ease 0s normal forwards 1 fade_rotate_in;
+	     -o-animation: 0.75s ease 0s normal forwards 1 fade_rotate_in;
+	        animation: 0.75s ease 0s normal forwards 1 fade_rotate_in;
+	
+	-webkit-animation-delay: 0.25s;
+	 -khtml-animation-delay: 0.25s;
+	   -moz-animation-delay: 0.25s;
+	    -ms-animation-delay: 0.25s;
+	     -o-animation-delay: 0.25s;
+	        animation-delay: 0.25s;
+}
+
+.polaroid img {
+	width: 100%;
+	height: auto;
+	box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, .5);
+}
+
+.main_text {
+	color: rgb( 255, 255, 100 );
+	font-size: 14pt;
+	text-align: justify;
+}
+
+.toggle {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	opacity: 0%;
+	-webkit-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	 -khtml-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	   -moz-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	    -ms-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	     -o-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	        animation: 0.75s ease 0s normal forwards 1 opacity_c;
+
+	-webkit-animation-delay: 1s;
+	 -khtml-animation-delay: 1s;
+	   -moz-animation-delay: 1s;
+	    -ms-animation-delay: 1s;
+	     -o-animation-delay: 1s;
+	        animation-delay: 1s;
+}
+
+.play {
+	width: 18px;
+	padding-right: 20px;
+	display: block;
+}
+
+.pause {
+	width: 18px;
+	padding-right: 20px;
+	display: none;
+}
+
+.play_text {
+	font-size: 12pt;
+	font-weight: lighter;
+}
+
+.note_p {	
+	opacity: 0%;
+	-webkit-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	 -khtml-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	   -moz-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	    -ms-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	     -o-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	        animation: 0.75s ease 0s normal forwards 1 fade_in;
+}
+
+.note_1 {
+	opacity: 0%;
+	-webkit-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	 -khtml-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	   -moz-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	    -ms-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	     -o-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	        animation: 0.75s ease 0s normal forwards 1 fade_in;
+	
+	-webkit-animation-delay: 0.25s;
+	 -khtml-animation-delay: 0.25s;
+	   -moz-animation-delay: 0.25s;
+	    -ms-animation-delay: 0.25s;
+	     -o-animation-delay: 0.25s;
+	        animation-delay: 0.25s;
+}
+
+.note_2 {
+	opacity: 0%;
+	-webkit-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	 -khtml-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	   -moz-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	    -ms-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	     -o-animation: 0.75s ease 0s normal forwards 1 fade_in;
+	        animation: 0.75s ease 0s normal forwards 1 fade_in;
+
+	-webkit-animation-delay: 0.5s;
+	 -khtml-animation-delay: 0.5s;
+	   -moz-animation-delay: 0.5s;
+	    -ms-animation-delay: 0.5s;
+	     -o-animation-delay: 0.5s;
+	        animation-delay: 0.5s;
+}
+
+a {
+	text-decoration: none;
+	color: rgb( 255, 255, 100 );
+}
+
+.libra {
+	font-size: 12pt;
+	font-weight: lighter;
+	text-align: right;
+	cursor: pointer;
+
+	opacity: 0%;
+	-webkit-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	 -khtml-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	   -moz-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	    -ms-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	     -o-animation: 0.75s ease 0s normal forwards 1 opacity_c;
+	        animation: 0.75s ease 0s normal forwards 1 opacity_c;
+
+	-webkit-animation-delay: 1.5s;
+	 -khtml-animation-delay: 1.5s;
+	   -moz-animation-delay: 1.5s;
+	    -ms-animation-delay: 1.5s;
+	     -o-animation-delay: 1.5s;
+	        animation-delay: 1.5s;
+}
+
+@keyframes fade_in {
+    0% {
+        transform: translateY(30px);
+		opacity: 0%;
+    }
+	
+    100% {
+        transform: translateY(0px);
+		opacity: 100%;
+    }
+}
+
+@keyframes fade_rotate_in {
+	0% {
+		transform: translateX(40px) rotate(-5deg);
+		opacity: 0%;
+	}
+	
+	100% {
+		transform: translateX(0px) rotate(-10deg);
+		opacity: 100%;
+	}
+}
+
+@keyframes opacity_c {
+	0% {
+		opacity: 0%;
+	}
+	
+	100% {
+		opacity: 100%;
+	}
+}
+
+/* roboto-mono-300 - latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: url('roboto-mono-v13-latin/roboto-mono-v13-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-300.svg#RobotoMono') format('svg'); /* Legacy iOS */
+}
+/* roboto-mono-regular - latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('roboto-mono-v13-latin/roboto-mono-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('roboto-mono-v13-latin/roboto-mono-v13-latin-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+}
