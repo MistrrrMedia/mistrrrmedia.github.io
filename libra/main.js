@@ -1,10 +1,10 @@
 drinks = [];
 
-    drinks[0] = "J&S Coffee";
+        drinks[0] = "J&S Coffee";
 	drinks[1] = "Decade";
 	drinks[2] = "Z's Divine Espresso";
 	drinks[3] = "Starbucks (our usual)";
-	drinks[4] = "Smoothie King";
+	drinks[4] = "Smoodie King";
 	drinks[5] = "The SconeLady's Coffee Shop";
 	drinks[6] = "Uplift Coffee";
 	drinks[7] = "La Prime Tazza";
@@ -37,7 +37,7 @@ treats = [];
 
 food = [];
 
-    food[0] = "Tortas Jalisco";
+        food[0] = "Tortas Jalisco";
 	food[1] = "The Fresh Mediterranean Co";
 	food[2] = "715 Restaurant";
 	food[3] = "Burrito King";
@@ -57,6 +57,8 @@ food = [];
 	food[17] = "Little Saigon";
 	food[18] = "Ramen Bowls";
 	food[19] = "Pokeloha";
+        food[20] = "Lawrence Beer Company West";
+        food[21] = "AppleBees";
 
 random_shit = [];
 
@@ -72,10 +74,11 @@ random_shit = [];
                 random_shit[9] = "Minecraft";
                 random_shit[10] = "Mariokart";
                 random_shit[11] = "GTA";
+                random_shit[12] = "Overwatch";
 
 function getRandomInt(max) 
 {
-    return Math.floor(Math.random() * (max + 1));
+    return Math.floor(Math.random() * (max));
 }
 
 function shuffle()
@@ -94,7 +97,7 @@ function shuffle()
 
     if( category == 2 )
     {
-        document.getElementById("date").innerHTML = "Looks like we're eating at " + "<b>" + food[getRandomInt(20)] + "</b>";
+        document.getElementById("date").innerHTML = "Looks like we're eating at " + "<b>" + food[getRandomInt(22)] + "</b>";
     }
 
     if( category == 3 )
@@ -113,7 +116,7 @@ function shuffle()
 
         if( type == 2 )
         {
-            document.getElementById("date").innerHTML = "Looks like we're going to play " + "<b>" + random_shit[getRandomInt(4) + 8] + "</b>";
+            document.getElementById("date").innerHTML = "Looks like we're going to play " + "<b>" + random_shit[getRandomInt(5) + 8] + "</b>";
         }
     }
 }
