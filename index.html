@@ -1,71 +1,32 @@
 <!doctype html>
 <html>
-	
-<head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-	<link href="style.CSS" rel="stylesheet" type="text/css">
-	
-	<title>Mistrrr Media</title>
-</head>
-	
-<body>
-	<div class="box">
-		<div class="main_text">
-			<h1 class="hello">hi! i'm nicholas.</h1>
-	
-			<p class="desc">musician, dj, graphic artist.</p>
-			<p class="desc">computer science @ university of kansas.</p>
-		</div>
-	
-		<div class="main_buttons">
-			<ul class="listed_items">
-				<li>
-					<a onclick="revealDisc()" class="discography">Discography</a>
-				</li>
-				<span id="links">
-					<li>
-						<a href="https://www.behance.net/gallery/90414453/Mistrrr-Media-Artwork" class="portfolio">Design</a>
-					</li>
-					<li>
-						<a href="https://www.youtube.com/channel/UCdxWRcmQaLULJ0LjhXjgyDQ" class="resume">Mixes</a>
-					</li>
-					<li>
-						<a href="mailto:nguyennicholas27@gmail.com" class="contact">Contact</a>
-					</li>
-				</span>
-			</ul>
+	<head>
+		<meta charset="UTF-8">
+		<title>nick nguyen!</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="main.js"></script>
+	</head>
 
-			<ul class="listed_items" id="services">
-				<li>
-					<a href="https://open.spotify.com/artist/7cOcfcAsk4eE5QrgJKGLE8?si=24AYjQ9BSje5Tv1_wD9Q1A" class="spotify">Spotify</a>
-				</li>
-				<li>
-					<a href="https://music.apple.com/us/artist/mistrrr/1365281603" class="apple_music">Apple Music</a>
-				</li>
-				<li>
-					<a href="https://soundcloud.com/mistrrr" class="soundcloud">Soundcloud</a>
-				</li>
-			</ul>		
+	<body>
+		<div id="box_container">
+			<div id="left_side_container">
+				<img id="profile_picture" src="Assets/Profile.png">
+				<div id="icon_container">
+					<a href="https://instagram.com/mistrrrmedia"><img class="social_icon" id="instagram" src="Assets/instagram_48x48.png"></a>
+					<a href="https://www.snapchat.com/add/mistrrrmusic"><img class="social_icon" id="snapchat" src="Assets/snapchat_48x48.png"></a>
+					<a href="https://twitter.com/mistrrrmedia"><img class="social_icon" id="twitter" src="Assets/twitter_48x48.png"></a>
+				</div>
+			</div>
+
+			<div id="right_side_container">
+				<h1>hi! i'm nick.</h1>
+				<p class="bio"><b>Technical Expert at Apple Leawood</b></p>
+				<p class="bio">Student obtaining a Bachelor of Science in <b>Computer Science at The University of Kansas</b></p>
+				<p class="bio">Electronic Musician, DJ, and graphic designer under <b><a id="discography" href="https://soundcloud.com/mistrrr">Mistrrr Media</a></b>.</p>
+				<p class="bio">Currently exploring front-end and web development, in an effort to design pleasing, functional, and memorable interfaces</p>
+				<p class="bio">See <b><a id="antispoil" href="https://github.com/MehrmannMatthew/AntiSpoil">AntiSpoil</a></b> – <i>granular, on-demand web-filter browser extension</i></p>				
+				<p class="bio" id="smiley">:)</p>
+			</div>
 		</div>
-		
-		<script>
-			var x = document.getElementById("services");
-			var y = document.getElementById("links");
- 			x.style.display = "none";
-			
-			function revealDisc(){
-				if (x.style.display === "none") {
-					x.style.display = "block";
-					y.style.display = "none";
-				}
-				
-				else {
-					x.style.display = "none";
-					y.style.display = "block";
-				}
-			};
-		</script>
-	</div>
-</body>	
-	
+	</body>
 </html>
