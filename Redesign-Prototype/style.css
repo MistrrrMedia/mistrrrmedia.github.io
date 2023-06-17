@@ -54,6 +54,14 @@
 
 /**** Tags ****/
 
+html
+{
+  background-image: url("IMG_1599.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 a
 {
   color: white;
