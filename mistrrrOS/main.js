@@ -176,7 +176,7 @@ function handleInput( input )
 
     case "resume":
       output.innerHTML += `<p>Opening resume.pdf in a new tab.</p>`;
-      window.open( "resume.pdf", "_blank" );
+      window.open( "Resume.pdf", "_blank" );
       break;
 
     case "sudo":
