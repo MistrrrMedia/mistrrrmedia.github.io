@@ -1,32 +1,83 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>nick nguyen!</title>
-		<link rel="stylesheet" href="stylesheet.css">
-		<script src="main.js"></script>
-	</head>
+  <head>
+    <title>Mistrrr Media</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+  </head>
 
-	<body>
-		<div id="box_container">
-			<div id="left_side_container">
-				<img id="profile_picture" src="Assets/Profile.png">
-				<div id="icon_container">
-					<a href="https://instagram.com/mistrrrmedia"><img class="social_icon" id="instagram" src="Assets/instagram_48x48.png"></a>
-					<a href="https://www.snapchat.com/add/mistrrrmusic"><img class="social_icon" id="snapchat" src="Assets/snapchat_48x48.png"></a>
-					<a href="https://twitter.com/mistrrrmedia"><img class="social_icon" id="twitter" src="Assets/twitter_48x48.png"></a>
-				</div>
-			</div>
+  <body>
+    <div id = "container">
+      <div class = "column" id = "left">
+        <a class = "scroll-button" id = "up">&#x25B3;</a>
+        <a class = "scroll-button" id = "down">&#x25BD;</a>
+        <div id = "section-container">
+          <div class = "section 1">
+            <img src = "Assets/Portrait.jpeg" id = "portrait">
+          </div>
 
-			<div id="right_side_container">
-				<h1>hi! i'm nick.</h1>
-				<p class="bio"><b>Technical Expert at Apple Leawood</b></p>
-				<p class="bio">Obtaining <b>BS in Computer Science at The University of Kansas</b></p>
-				<p class="bio">Electronic Musician, DJ, and graphic designer under <b><a id="discography" href="https://soundcloud.com/mistrrr">Mistrrr Media</a></b>.</p>
-				<p class="bio">Exploring front-end/web development.</p>
-				<p class="bio">See <b><a id="antispoil" href="https://github.com/MehrmannMatthew/AntiSpoil">AntiSpoil</a></b> – <i>granular, on-demand web-filter browser extension</i></p>				
-				<p class="bio" id="smiley">:)</p>
-			</div>
-		</div>
-	</body>
+          <div class = "section 2">
+            <div class = "project-list">
+              <div class = "project-container">
+                <p id = "mistrrrOS">mistrrr<b>OS</b></p>
+              </div>
+
+              <div class = "project-container">
+                <p id = "AntiSpoil">Anti<b>Spoil</b></p>
+              </div>
+            </div>
+          </div>
+
+          <div class = "section 3">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7cOcfcAsk4eE5QrgJKGLE8?utm_source=generator&theme=0" width="350" height="466" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>          </div>
+        </div>
+      </div> 
+
+      <div class = "column" id = "right">
+        <div class = "card 1" id = "landing">
+          <h>Hi, I'm Nick.</h>
+          <p>Developer, Designer, Musician.</p>
+          <p>Obtaining BS in Computer Science @ University of Kansas.</p>
+          <p>Technical Expert @ Apple.</p>
+          <p>Performing & Electronic Artist, Design @ Mistrrr</p>
+        </div>
+
+        <div class = "card 2" id = "projects">
+          <div class = "project-desc" id = "projects-intro">       
+            <h>Development</h>
+            <p>A small list of passion and educational projects that demonstrate my growing understanding of UI/UX.</p>
+            <p>Currently exploring front-end development to create satisfying interfaces.</p>
+            <br/>
+            <a href = "https://github.com/mistrrrmedia">GitHub</a>
+          </div>   
+
+          <div class = "project-desc" id = "mistrrrOS-desc">
+            <h>mistrrrOS</h>
+            <p>A web-based desktop emulator with moveable windows mimicking macOS's design.</p>
+            <p>Includes a limited terminal emulator made with a JS back-end.</p>
+            <p>Currently a work in progress.</p>
+            <br/>
+            <a href = "mistrrrOS/mistrrrOS.html">Try it.</a>
+          </div>
+
+          <div class = "project-desc" id = "AntiSpoil-desc">
+            <h>AntiSpoil</h>
+            <p>An on-demand web-filter.</p>
+            <p>A collaborative group project for EECS 448 @ KU</p>
+            <br/>
+            <a href = "https://github.com/MehrmannMatthew/AntiSpoil">Try it / Source</a>
+          </div>
+        </div>
+
+        <div class = "card 3" id = "discography">
+          <h>Music</h>
+          <p>Venturing musically through emotive soundscapes.</p>
+          <p>"Don't Stop Era" represents a self reflection in each song.</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+  <script src = "main.js"></script>
 </html>

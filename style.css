@@ -1,0 +1,237 @@
+@import url( "https://fonts.googleapis.com/css?family=Helvetica Neue" );
+@import url( "https://fonts.googleapis.com/css?family=Roboto Mono Bold" );
+@import url( "https://fonts.googleapis.com/css?family=Roboto Mono" );
+@import url( "https://fonts.googleapis.com/css?family=Roboto" );
+
+/* tags */
+
+html
+{
+  overflow: hidden;
+  position: relative;
+  color: rgba( 255, 255, 255, 1 );
+  background-color: rgba( 0, 0, 0, 1 );
+  font-family: "roboto mono", "menlo", "courier new", monospace;
+}
+
+body
+{
+  height: 100%;
+  margin: 0;
+  overscroll-behavior-y: none;
+}
+
+a
+{
+  color: rgba( 255, 255, 255, 1 );
+}
+
+p
+{
+  padding: 0;
+  font-size: 16px;
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+h
+{
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 48px;
+  padding: 0px;
+} 
+
+/* classses */
+
+.card
+{
+  width: 600px;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.column
+{
+  flex: 1;
+  padding: 0px;
+}
+
+.project-container
+{
+  background-color: rgba( 255, 255, 255, 1 );
+  padding: 20px;
+  color: rgba( 0, 0, 0, 1 );
+  margin: 20px;
+  text-align: center;
+}
+
+.scroll-button
+{
+  position: absolute;
+  z-index: 10;
+  left: 25%;
+  padding: 5;
+  margin: 0;
+  cursor: pointer;
+}
+
+.section
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* IDs */
+
+#container 
+{
+  display: flex;
+  height: 100vh;
+}
+
+#intro
+{
+  font-size: 36px;
+}
+
+#left
+{
+  overflow-y: auto;
+  overflow: hidden;
+  margin: 0;
+}
+
+#mistrrrOS-desc
+{
+  display: none;
+}
+
+#AntiSpoil-desc
+{
+  display: none;
+}
+
+
+#portrait
+{
+  /* width: 100%; */
+  max-width: 300px;
+  border-style: solid;
+  border-color: rgba( 255, 255, 255, 1 );
+  border-width: 12px;
+}
+
+#right
+{
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-container
+{
+  position: relative;
+  overflow: hidden;
+}
+
+#up
+{
+  position: absolute;
+  top: 10%;
+  display: none;
+}
+
+#down
+{
+  position: absolute;
+  top: 88%;
+  display: flex;
+}
+
+#landing
+{
+  display: block;
+}
+
+#projects
+{
+  display: none;
+}
+
+#discography
+{
+  display: none;
+}
+
+#mistrrrOS
+{
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 36px;
+}
+
+#mistrrrOS b
+{
+  color: rgba( 150, 100, 180 );
+}
+
+#AntiSpoil
+{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+}
+
+#AntiSpoil b
+{
+  color: rgba( 255, 100, 100, 1 );
+}
+
+/* animations and whatnot */
+
+@keyframes fadeIn
+{
+  from
+  {
+    opacity: 0;
+    display: none;
+  }
+
+  to
+  {
+    opacity: 1;
+    display: block;
+  }
+}
+
+@keyframes fadeOut
+{
+  from
+  {
+    opacity: 1;
+    display: block;
+  }
+
+  to
+  {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.fadeIn
+{
+  animation: fadeIn 0.5s forwards;
+}
+
+.fadeOut
+{
+  animation: fadeOut 0.5s forwards;
+}
