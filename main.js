@@ -12,11 +12,10 @@ const slideshow_cards = document.querySelectorAll( ".slideshow-card" );
 let index = 0;
 let project_index = 0;
 
-for( let i = 0; i < slideshow_cards.legnth; ++i )
-{
-  console.log( slideshow_cards[ i ].id );
-}
-
+/**
+ * event listeners for the buttons at the top- and bottom-left
+ * scrolls to the next section
+ */
 
 scrollUpButton.addEventListener( "click", () => {
   if( index > 0 ) cardPrevious(); // stop at card & section 0
@@ -26,13 +25,17 @@ scrollDownButton.addEventListener( "click", () => {
   if( index < sections.length - 1 ) cardNext(); // stop at last card & section
 } ) ;
 
+/**
+ * handles slideshow functionality in the design section of the website
+ */
+
 let ssnum = 0;
 slideshow();
 function slideshow()
 {
   slideshow_cards[ ssnum ].classList.add( "fadeOut" );
   slideshow_cards[ ssnum ].addEventListener( "animationend", () => {
-    ssnum++;
+    ssnum++
     if( ssnum >= slideshow_cards.length ) ssnum = 0;
     slideshow_cards[ ssnum ].classList.remove( "fadeOut" );
     slideshow_cards[ ssnum ].classList.add( "fadeIn" );
@@ -41,7 +44,8 @@ function slideshow()
 }
 
 /**
- * Overrides scrolling behavior, prevents momentum scrolling from scrolling to the next section prematurely
+ * Overrides scrolling behavior, prevents momentum scrolling from scrolling to 
+ * the next section prematurely
  * bool: isProcessing, lastScroll
  */
 
@@ -126,7 +130,7 @@ function doFadeOut( previous, index )
 
 sections[ 1 ].addEventListener( "click", function( event ) 
 {
-  if ( event.target === event.currentTarget ) doFadeOut( project_index, project_index = 0 );
+  if ( event.target === event.currentTarget && project_descriptions[ 0 ].style.display == "" || project_descriptions[ 0 ].style.display == "none" ) doFadeOut( project_index, project_index = 0 );
 } );
 
 projects[ 0 ].addEventListener( "click", () => 

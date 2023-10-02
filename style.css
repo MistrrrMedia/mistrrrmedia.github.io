@@ -1,7 +1,5 @@
-@import url( "https://fonts.googleapis.com/css?family=Helvetica Neue" );
-@import url( "https://fonts.googleapis.com/css?family=Roboto Mono" );
-@import url( "https://fonts.googleapis.com/css?family=Roboto" );
-@import url( "https://fonts.googleapis.com/css?family=Proxima Nova" );
+@import url( "https://fonts.googleapis.com/css?family=Helvetica Neue" ); /* helvetica neue */
+@import url("https://use.typekit.net/gry5hae.css"); /* proxima nova, roboto, roboto mono */
 
 /* tags */
 
@@ -65,6 +63,18 @@ h
   padding: 20px;
   color: rgba( 0, 0, 0, 1 );
   margin: 20px;
+  text-align: center;
+  height: 70px;
+  width: 180px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.project-container p
+{
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -202,6 +212,7 @@ h
 #mistrrrOS b
 {
   color: rgba( 150, 100, 180 );
+  font-weight: 700;
 }
 
 #AntiSpoil
@@ -213,17 +224,19 @@ h
 #AntiSpoil b
 {
   color: rgba( 255, 100, 100, 1 );
+  font-weight: 700;
 }
 
 #SongSync
 {
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serf;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serf;
   font-size: 36px;
 }
 
 #SongSync b
 {
   color: rgba( 17, 137, 189, 1 );
+  font-weight: 700;
 }
 
 /* animations and whatnot */
