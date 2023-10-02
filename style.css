@@ -1,7 +1,7 @@
 @import url( "https://fonts.googleapis.com/css?family=Helvetica Neue" );
-@import url( "https://fonts.googleapis.com/css?family=Roboto Mono Bold" );
 @import url( "https://fonts.googleapis.com/css?family=Roboto Mono" );
 @import url( "https://fonts.googleapis.com/css?family=Roboto" );
+@import url( "https://fonts.googleapis.com/css?family=Proxima Nova" );
 
 /* tags */
 
@@ -86,6 +86,12 @@ h
   justify-content: center;
 }
 
+.slideshow-card
+{
+  /* display: none; */
+  max-width: 400px;
+}
+
 /* IDs */
 
 #container 
@@ -114,6 +120,16 @@ h
 #AntiSpoil-desc
 {
   display: none;
+}
+
+#SongSync-desc
+{
+  display: none;
+}
+
+#design-overview
+{
+  max-width: 900px;
 }
 
 
@@ -172,6 +188,11 @@ h
   display: none;
 }
 
+#design
+{
+  display: none;
+}
+
 #mistrrrOS
 {
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -192,6 +213,17 @@ h
 #AntiSpoil b
 {
   color: rgba( 255, 100, 100, 1 );
+}
+
+#SongSync
+{
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serf;
+  font-size: 36px;
+}
+
+#SongSync b
+{
+  color: rgba( 17, 137, 189, 1 );
 }
 
 /* animations and whatnot */
