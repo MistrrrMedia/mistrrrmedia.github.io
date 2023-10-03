@@ -40,7 +40,7 @@ function slideshow()
     slideshow_cards[ ssnum ].classList.remove( "fadeOut" );
     slideshow_cards[ ssnum ].classList.add( "fadeIn" );
   }, { once: true } );
-  setTimeout( slideshow, 2000 );
+  setTimeout( slideshow, 3000 );
 }
 
 /**
@@ -58,10 +58,9 @@ window.addEventListener( "wheel", ( e ) => {
   if( isProcessing || now - lastScroll < 100 )  
   {
     e.preventDefault();
+    lastScroll = now;
     return; // do nothing if scroll events occur < 100 ms between each other
   } 
-
-  lastScroll = now;
 
   if( e.deltaY > 0 && index < cards.length - 1 ) cardNext(); // go next if up scroll
   else if( e.deltaY < 0 && index > 0 ) cardPrevious(); // go backward if down scroll
@@ -75,31 +74,11 @@ window.addEventListener( "wheel", ( e ) => {
   }, 1000 );
 }, { passive: false } );
 
-function cardNext()
-{
-  cards[ index ].classList.add( "fadeOut" );
-  ++index;
-  scrollToSection();
-  cards[ index - 1 ].addEventListener( "animationend", function() {
-    this.style.display = "none";
-    this.classList.remove( "fadeOut" );
-    cards[ index ].style.display = "block";
-    cards[ index ].classList.add( "fadeIn" );
-  }, { once: true });
-}
-
-function cardPrevious()
-{
-  cards[ index ].classList.add( "fadeOut" );
-  --index;
-  scrollToSection();
-  cards[ index + 1 ].addEventListener( "animationend", function() {
-    this.style.display = "none";
-    this.classList.remove( "fadeOut" );
-    cards[ index ].style.display = "block";
-    cards[ index ].classList.add( "fadeIn" );
-  }, { once: true } );
-}
+/**
+ * part of overriding the scrolling behavior. no input parameters are needed, because
+ * index is a global var modified by cardNext() and cardPrevious()
+ * simply animates the left side of the screen to scroll to different sections
+ */
 
 function scrollToSection() 
 {
@@ -116,11 +95,50 @@ function scrollToSection()
   else down_button.style.display = "flex"; // comes back otherwise
 }
 
+/**
+ * Changes the description and title on the right side of the webpage
+ */
+
+function cardNext()
+{
+  cards[ index ].classList.add( "fadeOut" );
+  ++index;
+  scrollToSection();
+  cards[ index - 1 ].addEventListener( "animationend", function() {
+    this.style.display = "none";
+    this.classList.remove( "fadeOut" );
+    cards[ index ].style.display = "block";
+    cards[ index ].classList.add( "fadeIn" );
+  }, { once: true });
+}
+
+/**
+ * Changes the description and title on the right side of the webpage
+ */
+
+function cardPrevious()
+{
+  cards[ index ].classList.add( "fadeOut" );
+  --index;
+  scrollToSection();
+  cards[ index + 1 ].addEventListener( "animationend", function() {
+    this.style.display = "none";
+    this.classList.remove( "fadeOut" );
+    cards[ index ].style.display = "block";
+    cards[ index ].classList.add( "fadeIn" );
+  }, { once: true } );
+}
+
+/**
+ * applies fadeOut animation to the previous project description
+ * applies fadeIn animation to the current (new) project descrition. 
+ * executed by an eventListner on the Development section and project buttons on the left
+ */
+
 function doFadeOut( previous, index )
 {
   project_descriptions[ previous ].classList.add( "fadeOut" );
   project_descriptions[ previous ].addEventListener( "animationend", function() {
-    console.log( this.id );
     this.classList.remove( "fadeOut" );
     this.style.display = "none";
     project_descriptions[ project_index ].style.display = "block";
@@ -128,9 +146,13 @@ function doFadeOut( previous, index )
   }, { once: true } );
 }
 
+/**
+ * Adding event listeners to the Development section and project buttons
+ */
+
 sections[ 1 ].addEventListener( "click", function( event ) 
 {
-  if ( event.target === event.currentTarget && project_descriptions[ 0 ].style.display == "" || project_descriptions[ 0 ].style.display == "none" ) doFadeOut( project_index, project_index = 0 );
+  if ( event.target === event.currentTarget && ( project_descriptions[ 0 ].style.display == "" || project_descriptions[ 0 ].style.display == "none" ) ) doFadeOut( project_index, project_index = 0 );
 } );
 
 projects[ 0 ].addEventListener( "click", () => 
@@ -147,4 +169,3 @@ projects[ 2 ].addEventListener( "click", () =>
 {
   if( project_descriptions[ 3 ].style.display == "none" || project_descriptions[ 3 ].style.display == "" ) doFadeOut( project_index, project_index = 3 );
 } );
-
