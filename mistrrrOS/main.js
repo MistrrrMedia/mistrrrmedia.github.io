@@ -1,3 +1,9 @@
+/**
+ * omg just seperate the terminal functionality into a new js file
+ * 
+ * consider learning react too, that'd probably speed things up once i get the hang of it
+ */
+
 const inputForm = document.getElementById( "terminal-input" );
 const userIn = document.getElementById( "command-input" );
 const output = document.getElementById( "terminal-output" );
@@ -77,6 +83,7 @@ function handleInput( input )
 
   output.innerHTML += `<p>beautiful-human@mistrrrmedia % ${input}</p>`; // output $ input
 
+  // uhh
   switch( args[ 0 ].toLowerCase() )
   {
     // normal stuff
